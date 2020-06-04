@@ -1,0 +1,25 @@
+*
+{
+font-family:helvetica;
+}
+div:nth-child(1)
+{
+  color:white;
+  background-color:seagreen;
+  width:40%;
+  text-align:center;
+  padding:0 10% 10% 10%;
+  font-size:1.6em;
+}
+a:hover
+{
+ color:#000;
+}
+a:focus
+{
+  color:black;
+}
+a:active
+{
+  color:purple;
+}
