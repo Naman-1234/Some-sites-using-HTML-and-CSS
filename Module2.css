@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box;
+    font-family:roboto;
+}
+body
+{
+    background-color:#0a192f;
+    color:rgba(255,255,255,0.9);
+}
+h1
+{
+    text-align:center;
+    font-variant:small-caps;
+}
+section
+{
+    border:3px solid lightblue;
+    border-radius:5px;
+    position:relative;
+    padding:5vh;
+}
+h2
+{
+position: absolute;
+top:0;
+margin:0;
+padding:0;
+left:
+        
+}
