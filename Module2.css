@@ -1,7 +1,11 @@
 *
 {
-    box-sizing: border-box;
+    box-sizing:border-box;
     font-family:roboto;
+    padding:0;
+    margin:0;
+    line-height:180%;
+    text-align:justify;
 }
 body
 {
@@ -12,20 +16,51 @@ h1
 {
     text-align:center;
     font-variant:small-caps;
+    font-size:1.75em;
 }
 section
 {
-    border:3px solid lightblue;
+    border:1px solid lightblue;
     border-radius:5px;
     position:relative;
     padding:5vh;
+    margin:3% 3%;
+    float:left;
 }
 h2
 {
 position: absolute;
-top:0;
 margin:0;
 padding:0;
-left:
-        
+top:0px;
+right:0px;
+border:1px solid #6669cc;  
+border-radius:2px;
+font-size:1.25em;
+    margin-bottom:12px;
+}
+@media (min-width:992px)
+{
+.first,.second,.third
+    {
+        width:27%;
+    }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .first,.second
+    {
+        width:44%;
+    }
+    .third
+    {
+        width:100%;
+    }
+}
+@media (max-width:767px)
+{
+    .first,.second,.third
+    {
+        width:100%;
+    }
 }
